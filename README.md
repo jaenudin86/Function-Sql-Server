@@ -1,5 +1,5 @@
 # Function-Sql-Server
-Fungsi Fungsi Sql server yang sangat penting
+Query Pencarian SP Berdasarkan nama TABLE DAN TANGGAL
 
 
 Pencarian SQL SP 
@@ -18,8 +18,7 @@ INNER JOIN sys.schemas s ON o.schema_id = s.schema_id
 WHERE o.[type] IN ('P','V')
 AND [definition] LIKE '%NAME TABLE%' OR [definition] LIKE '%NAME TABLE%'`
 
-
-** Pencarian SP Berdasarkan Tanggal **
+**Pencarian SP Berdasarkan Nama DATE**
 
 `SELECT 
     '-------------------------------------'  + CHAR(13) + CHAR(10) +
